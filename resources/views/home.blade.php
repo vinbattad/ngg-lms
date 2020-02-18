@@ -19,21 +19,7 @@ Total</div>
 </div>
 -->
 
-<div class="row">
-    <div class="col-12 border border-primary">
 
-        <h6>Total Property Leasing </h6>
-        <hr>
-<div>
-    {!! $chart->container() !!}
-</div>
-
-</div>
-</div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" charset="utf-8"></script>
-{!! $chart->script() !!}
 
 
 
