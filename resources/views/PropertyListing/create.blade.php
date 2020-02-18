@@ -3,7 +3,7 @@
 
 <div class="d-flex">
     <div>
-        <h2 style="color:#008349;"><i class="fas fa-building"></i> Property Listing</h2>
+        <h2 style="color:#008349;"><i class="fas fa-building"></i> Property Leasing</h2>
     </div>
     <div class="ml-auto">
         <a class="btn btn-primary" id="createNewProduct" href={{route("PropertyListing.index")}}> <i
@@ -15,7 +15,7 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><i class="fa fa-home" style="color:darkgoldenrod">&nbsp;</i><a
                 href="{{'/home'}}">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-building"></i> Property Listing
+        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-building"></i> Property Leasing
         </li>
         <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-plus-circle"></i> Create New
         </li>
