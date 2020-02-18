@@ -6,7 +6,7 @@
 <h2 style="color:#008349;">   <i class="fa fa-project-diagram"></i> Dashboard</h2>
 <hr>
 
-<div class="fas-icon">
+
 
     <!--
 <div class="row mb-1">
@@ -18,9 +18,6 @@ Total</div>
     <div class="col col-xs-3 p-3 m-2 bg-primary text-white"><i class="fas fa-user"></i></div>
 </div>
 -->
-
-
-
 
 
 
@@ -55,7 +52,7 @@ Total</div>
     </div>
 </div>
 
-</div>
+
 
 
 
