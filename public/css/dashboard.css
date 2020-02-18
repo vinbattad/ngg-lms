@@ -1,0 +1,96 @@
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 200px; /* only if you want fixed height */
+    }
+
+.app{
+    background-color: red;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.btns {
+    background-color: gold;
+}
+
+
+
+
+.fas-icon .fa-hotel{
+    color:royalblue;
+}
+
+.fas-icon .fa-home{
+    color:green;
+}
+
+.fas-icon .fa-building{
+    color:orange
+}
+
+.fas-icon .fa-city{
+    color:indigo;
+    
+}
+
+
+
+.fas-icon .fas{
+    font-size:50px;
+}
+
+
+
+
+.wrapper-body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-left: black;
+    border-left-style: solid;
+    border-left-width: 5px;
+   
+}
+
+/*FORMS*/
+fieldset{
+    border: 1px solid #ddd !important;
+    margin: 0;
+    min-width: 0;
+    padding: 10px;       
+    position: relative;
+    border-radius:4px;
+    background-color:#f0f0f0;
+    padding-left:10px!important;
+}	
+
+fieldset.hotel-picture{
+    border: 1px solid #ddd !important;
+    margin: 0;
+    min-width: 0;
+    padding: 10px;       
+    position: relative;
+    border-radius:4px;
+    background-color:#f0f0f0;
+    padding-left:10px!important;
+}	
+
+
+    legend
+    {
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom: 0px; 
+        width: 35%; 
+        border: 1px solid #ddd;
+        border-radius: 4px; 
+        padding: 5px 5px 5px 10px; 
+        background-color: #ffffff;
+    }
+
+
+  
+    
