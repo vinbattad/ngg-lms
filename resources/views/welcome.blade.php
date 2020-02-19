@@ -89,7 +89,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     
-                    <div class="row d-flex p-2"><img src={{url("img/logo.png")}} height="200" style="position:relative;top:30px;" alt="logo">
+                    <div class="row d-flex p-2"><img src={{url("img/Logo.png")}} height="200" style="position:relative;top:30px;" alt="logo">
                     </div>
                     
 
