@@ -299,7 +299,7 @@
 
 
     <!-- SIDE MENU -->
-    <script src={{url('/js/sidemenu.js')}}></script>
+    <script src={{url('js/app.js')}}></script>
 
 
 </body>
