@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 
 
 Route::group(['middleware' => 'prevent-back-history'],function(){
+    Route::get('/', function () {
+        return view('welcome');
+    });
     Auth::routes(['register' => false,'verify' => false,'reset' => false]);
     Route::get('/home', 'HomeController@index');
   });

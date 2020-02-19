@@ -5,8 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-     
 
+           <!-- Side Menu -->
+    <link rel="stylesheet" href={{"/css/dashboard.css"}}>
+     
+    <script src={{url('/js/sidemenu.js')}}></script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -86,7 +89,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     
-                    <div class="row d-flex p-2"><img src={{url("img/logo.png")}} height="200" style="position:relative;top:30px;"></div>
+                    <div class="row d-flex p-2"><img src={{url("/img/logo.png")}} height="200" style="position:relative;top:30px;"></div>
                     
 
                     <div class="row d-flex p-2" style="font-size:50px;">NGG Leasing Management & Services</div>
@@ -94,8 +97,9 @@
                     
                 </div>
 
-                
             </div>
         </div>
     </body>
 </html>
+
+

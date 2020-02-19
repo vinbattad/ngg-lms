@@ -57,11 +57,11 @@
 <body bgcolor="#E6E6FA">
     <!--oncontextmenu="return false"-->
 
-
+   
 
 
     @include('sweetalert::alert')
-
+ 
 
 
     {{-- This comment will not be present in the rendered HTML --}}
@@ -253,11 +253,21 @@
         <main class="page-content">
             <div class="wrapper-body rounded">
                 @yield('content')
+
+               
             </div>
         </main>
         <!-- page-content" -->
 
+
+        
+<div>
+    @include('cookieConsent::index')
+</div>
+
     </div>
+
+
 
 
     <footer id="sticky-footer" class="py-2 bg-dark text-white-50">
@@ -265,6 +275,11 @@
             <small class="text-white">&copy; NGG Leasing Management & Services</small>
         </div>
     </footer>
+
+    
+ 
+       
+    
 
     <!--
     <a id="show-sidebar" class="btn btn-lg border border-dark shadow-lg btns" style="background-color:white;">
@@ -279,6 +294,7 @@
         <i class="fas fa-bars"></i>
     </a>
 
+   
 
 
 
