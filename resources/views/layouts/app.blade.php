@@ -34,10 +34,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <!-- Side Menu -->
-    <link rel="stylesheet" href={{"/css/sidemenu.css"}}>
+    <link rel="stylesheet" href="css/sidemenu.css">
 
     <!-- Dashboard Menu -->
-    <link rel="stylesheet" href={{"/css/dashboard.css"}}>
+    <link rel="stylesheet" href="css/dashboard.css">
 
 
 

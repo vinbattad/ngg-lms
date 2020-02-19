@@ -7,7 +7,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
            <!-- Side Menu -->
-    <link rel="stylesheet" href={{"/css/dashboard.css"}}>
+    <link rel="stylesheet" href="/css/dashboard.css">
      
     <script src={{url('/js/sidemenu.js')}}></script>
 
