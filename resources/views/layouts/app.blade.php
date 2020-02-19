@@ -235,12 +235,12 @@
                     <span class="badge-sonar"></span>
                 </a>
             -->
-                <a href="{{ route('logout') }}"
+                <a href="{{ route('logout') }}" id="btnSubmit"
                     onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                     <i class="fa fa-power-off"></i> Logout
                 </a>
 
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;" onsubmit="document.getElementById('btnSubmit').disabled=true;" autocomplete="off">
                     {{ csrf_field() }}
                 </form>
 
