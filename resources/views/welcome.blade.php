@@ -8,7 +8,7 @@
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
      
-    <script src={{url('/js/sidemenu.js')}}></script>
+        
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -88,9 +88,10 @@
             <div class="content">
                 <div class="title m-b-md">
                     
+                    <!--
                     <div class="row d-flex p-2"><img src={{url("img/Logo.png")}} height="200" style="position:relative;top:30px;" alt="logo">
                     </div>
-                    
+                -->
 
                     <div class="row d-flex p-2" style="font-size:50px;">NGG Leasing Management & Services</div>
                     
