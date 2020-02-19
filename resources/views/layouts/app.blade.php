@@ -33,9 +33,9 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    <!-- Side Menu 
+    <!-- Side Menu -->
     <link rel="stylesheet" href="{{URL::asset('css/sidemenu.css')}}">
--->
+
     <!-- Dashboard Menu -->
     <link rel="stylesheet" href="{{URL::asset('css/dashboard.css')}}">
 
