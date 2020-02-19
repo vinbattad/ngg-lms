@@ -7,16 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <meta http-equiv="cache-control" content="private, max-age=0, no-cache">
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="expires" content="0">
 
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="shortcut icon" href="{{ asset('/img/Logo.png') }}">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>NGG-LMS</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -71,7 +68,7 @@
         <nav id="sidebar" class="sidebar-wrapper">
             <div class="sidebar-content">
                 <div class="sidebar-brand">
-                    <a href="{{ url('/') }}" class="text-success text-center" style="text-decoration: none;">NGG
+                    <a class="text-success text-center" style="text-decoration: none;">NGG
                         <div class="row justify-content-center"><small>Leasing Management & Services</small></div></a>
                     <div id="close-sidebar">
                         <i class="fas fa-times"></i>
@@ -107,7 +104,7 @@
 
                     </div>
                 </div>
-                <!-- sidebar-header  -->
+                <!-- sidebar-header  
                 <div class="sidebar-search">
                     <div>
                         <div class="input-group">
@@ -120,6 +117,7 @@
                         </div>
                     </div>
                 </div>
+                -->
                 <!-- sidebar-search  -->
                 <div class="sidebar-menu">
                     <ul>
@@ -178,8 +176,8 @@
 
                         <li>
 
-                            <a href="{{('/ClientInformation')}}"><i class="fas fa-user-clock"></i>
-                                <span class="text-white">Client Information</span></a>
+                            <a><i class="fas fa-file-alt"></i>
+                                <span class="text-white">Reports</span></a>
 
                         </li>
 
@@ -220,7 +218,7 @@
 
             <!-- sidebar-content  -->
             <div class="sidebar-footer">
-
+<!--
                 <a href="#">
                     <i class="fa fa-bell"></i>
                     <span class="badge badge-pill badge-warning notification">3</span>
@@ -236,7 +234,7 @@
                     <i class="fa fa-cog"></i>
                     <span class="badge-sonar"></span>
                 </a>
-
+            -->
                 <a href="{{ route('logout') }}"
                     onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                     <i class="fa fa-power-off"></i> Logout

@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <link rel="shortcut icon" href="{{ asset('/img/Logo.png') }}">
+        <title>NGG-LMS</title>
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
      
