@@ -15,7 +15,7 @@
 
 
 
-Route::group(['middleware' => 'prevent-back-history'],function(){
+Route::group(['middleware' => 'prevent-back-history','guest'],function(){
     Route::get('/', function () {
         return view('auth.login');
     });
@@ -50,6 +50,7 @@ Route::resource('PropertyListing','PropertyListingController');
 Route::get('PropertyListing/{id}/Units','RoomsController@index')->name('Rooms.index');
 Route::get('PropertyListing/{id}/Units/Create','RoomsController@create')->name('Rooms.create');
 Route::post('PropertyListing/{id}/Units/Store','RoomsController@store')->name('Rooms.store');
+//Route::get('PropertyListing/{id}/Units/Edit','RoomsController@edit')->name('Rooms.edit');
 
 
 Route::get('PropertyListing/{id}/Units/RentalInfo/{ids}','RentController@index')->name('RentalInfo.index');

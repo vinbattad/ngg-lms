@@ -34,6 +34,9 @@
     <link rel="stylesheet" href="{{url('css/sidemenu.css')}}">
 
    -->
+   
+
+
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
@@ -42,13 +45,13 @@
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
+   
 
     
 
 
 </head>
+
 
 
 <body bgcolor="#E6E6FA">
@@ -265,7 +268,7 @@
 
     </div>
 
-
+<!-- SIDE MENU -->
 
 
     <footer id="sticky-footer" class="py-2 bg-dark text-white-50">
@@ -294,10 +297,12 @@
 
    
 
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/pace.js') }}" defer></script>
+    
 
 
-    <!-- SIDE MENU -->
-    <script src={{url('js/app.js')}}></script>
+    
 
 
 </body>
@@ -325,9 +330,6 @@
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-
-
-
 
 
 

@@ -72,7 +72,7 @@ class LoginController extends Controller
          
 
  
-         alert('Login','Successfully Logged In!', 'success')->autoClose(2000)->timerProgressBar(5);
+         
  
          //toast('Successfully Logged In!','success')->autoClose(5000);
      
@@ -90,6 +90,7 @@ class LoginController extends Controller
      
              // Make sure the user is active
              if ($user->status && $this->attemptLogin($request)) {
+                alert('Login','Successfully Logged In!', 'success')->autoClose(2000)->timerProgressBar(5);
                  // Send the normal successful login response
                  return $this->sendLoginResponse($request);
              } else {

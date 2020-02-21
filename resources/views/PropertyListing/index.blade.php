@@ -60,7 +60,16 @@
                                 <a class="btn btn-success text-white"
                                     href="{{action('RoomsController@index',$item->id)}}" rel="tooltip"
                                     data-placement="top" title="Unit Information"><i
-                                        class="fas fa-clipboard-list"></i></a></td>
+                                        class="fas fa-clipboard-list"></i></a>
+                                    
+
+                                        <a class="btn btn-info text-white"
+                                    href="{{action('PropertyListingController@edit',$item->id)}}" rel="tooltip"
+                                    data-placement="top" title="Edit Property"><i
+                                        class="fas fa-edit"></i></a>
+
+                                    
+                                    </td>
                         </tr>
 
                         <!-- Modal -->

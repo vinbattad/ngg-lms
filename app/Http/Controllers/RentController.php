@@ -17,16 +17,17 @@ class RentController extends Controller
         
 
         $table = RentalInfo::latest()->where('id_link_rooms','=',$ids)->get();
-       
-        //dd($table);
-      
+
+        $rooms = Rooms::where('id','=',$ids)->get();
+
+        $property = PropertyListing::where('id','=',$id)->get();
         
         if(session('success_message')){
             Alert::success('Succcess',session('success_message'));
         }
 
       
-        return view ('RentalInfo.index',compact('id','ids','table'));
+        return view ('RentalInfo.index',compact('id','ids','table','rooms','property'));
     }
 
     public function create($id, $ids){

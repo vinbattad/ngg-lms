@@ -101,8 +101,12 @@ class PropertyListingController extends Controller
      */
     public function edit($id)
     {
-        $product = ClientInformation::find($id);
-        return response()->json($product);
+
+        $id = PropertyListing::findOrFail($id);
+
+        $table = PropertyListing::all();
+
+        return view('PropertyListing.edit',compact('id','table'));
     }
 
     /**
@@ -114,7 +118,36 @@ class PropertyListingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
+        $request->validate([
+            'ld_full_name' => 'required',
+            'ld_address' => 'required',
+            'ld_email' => 'required',
+            'ld_website' => 'required',
+            'ld_phone_number' => 'required',
+            'ld_company_name' => 'required',
+            'ld_tin_number' => 'required',
+            
+            'le_full_name' => 'required',
+            'le_address' => 'required',
+            'le_email' => 'required',
+            'le_website' => 'required',
+            'le_phone_number' => 'required',
+            'le_company_name' => 'required',
+            'le_tin_number' => 'required',
+
+            'ra_full_name' => 'required',
+            'ra_address' => 'required',
+            'ra_email' => 'required',
+            'building_name' => 'required',
+            'property_type' => 'required',
+            'building_address' => 'required'
+        ]);
+
+        $id = PropertyListing::findOrFail($id);
+        $id->update($request->all());
+
+        return redirect()->route('PropertyListing.index')
+        ->withSuccessMessage('Property Updated Successfully!');
     }
 
     /**
