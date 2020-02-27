@@ -89,7 +89,7 @@
 
 
                                             <div class="col-lg-6">
-                                                <strong><i class="fas fa-user-tie "></i> Lessor's Data</strong>
+                                                <strong><i class="fas fa-user-tie "></i> Lessor Information</strong>
                                                 <hr>
                                                 <div class="form-group">
                                                     <label>Full Name</label>
@@ -130,7 +130,7 @@
                                             </div>
 
                                             <div class="col-lg-6">
-                                                <strong><i class="fas fa-user-tie "></i> Lessor's Data</strong>
+                                                <strong><i class="fas fa-user-tie "></i> Lesse Information</strong>
                                                 <hr>
                                                 <div class="form-group">
                                                     <label>Full Name</label>
